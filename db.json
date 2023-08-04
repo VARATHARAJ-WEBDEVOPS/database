@@ -1,16 +1,538 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
-        "book_name": "Harry Potter and the Philosopher's Stone",
-        "author": "J. K. Rowling",
-        "genre": "fiction",
-        "edition": "2021",
-        "publisher": "Bloomsbury",
-        "cost": 1299,
-        "borrowed": false
+  "user": [
+    {
+      "id": 1,
+      "name": "vasanth",
+      "email": "varathan2512002@gmail.com",
+      "password": "sivasiva",
+      "number": "9360733323"
+    },
+    {
+      "name": "Varatharaj",
+      "email": "tgreenscreenlyrics@gmail.com",
+      "number": 9360733323,
+      "password": "sivasiva",
+      "id": 2
+    },
+    {
+      "name": "hari",
+      "email": "h@gmai.com",
+      "number": 1234567890,
+      "password": "hari",
+      "id": 3
+    },
+    {
+      "name": "elamaran",
+      "email": "elamaran@gmail.com",
+      "number": 1234567890,
+      "password": "sivasiva",
+      "id": 4
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "banner1": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/bannerImages%2Fsony.jpg?alt=media&token=496b2614-52fe-4bc3-8e7a-b18d01264674",
+      "banner2": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/bannerImages%2Fpoco.jpg?alt=media&token=978ff8ed-bd66-47f0-9ae4-6213dcf809d6",
+      "banner3": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/bannerImages%2Fdress.jpg?alt=media&token=c357976f-a723-4be2-8448-988ccbb23dfb"
+    }
+  ],
+  "employee": [
+    {
+      "Name": "Priya",
+      "Phone": "9876543211",
+      "Section": "Laptop",
+      "Salary": "55500",
+      "EID": "EMP002",
+      "Gender": "female",
+      "id": 2
+    },
+    {
+      "Name": "varatharaj",
+      "Phone": "5551234567",
+      "Section": "Headphones",
+      "Salary": 70000,
+      "EID": "EMP003",
+      "Gender": "male",
+      "id": 3
+    },
+    {
+      "Name": "Nithya",
+      "Phone": "8885551234",
+      "Section": "Hometheaters",
+      "Salary": 48000,
+      "EID": "EMP004",
+      "Gender": "female",
+      "id": 4
+    },
+    {
+      "Name": "Smilling",
+      "Phone": "3332221111",
+      "Section": "Mobile",
+      "Salary": 62000,
+      "EID": "EMP005",
+      "Gender": "female",
+      "id": 5
+    },
+    {
+      "Name": "Olivia Miller",
+      "Phone": "4445556666",
+      "Section": "Laptop",
+      "Salary": 57000,
+      "EID": "EMP006",
+      "Gender": "female",
+      "id": 6
+    },
+    {
+      "Name": "Daniel Wilson",
+      "Phone": "7778889999",
+      "Section": "Headphones",
+      "Salary": 71000,
+      "EID": "EMP007",
+      "Gender": "female",
+      "id": 7
+    },
+    {
+      "Name": "Ava Martinez",
+      "Phone": "9098787676",
+      "Section": "Hometheaters",
+      "Salary": 49000,
+      "EID": "EMP008",
+      "Gender": "female",
+      "id": 8
+    },
+    {
+      "Name": "James Anderson",
+      "Phone": "2345678901",
+      "Section": "Mobile",
+      "Salary": 65000,
+      "EID": "EMP009",
+      "Gender": "male",
+      "id": 9
+    },
+    {
+      "Name": "Isabella Lee",
+      "Phone": "1112223333",
+      "Section": "Laptop",
+      "Salary": 58000,
+      "EID": "EMP010",
+      "Gender": "female",
+      "id": 10
+    },
+    {
+      "Name": "David Hernandez",
+      "Phone": "9876543211",
+      "Section": "Headphones",
+      "Salary": 73000,
+      "EID": "EMP011",
+      "Gender": "",
+      "id": 11
+    },
+    {
+      "Name": "Emma Clark",
+      "Phone": "8189191818",
+      "Section": "Hometheaters",
+      "Salary": 50000,
+      "EID": "EMP012",
+      "Gender": "female",
+      "id": 12
+    },
+    {
+      "Name": "William Lewis",
+      "Phone": "7776665555",
+      "Section": "Mobile",
+      "Salary": 64000,
+      "EID": "EMP013",
+      "Gender": "",
+      "id": 13
+    },
+    {
+      "Name": "Mia Scott",
+      "Phone": "2223334444",
+      "Section": "Laptop",
+      "Salary": 59000,
+      "EID": "EMP014",
+      "Gender": "",
+      "id": 14
+    },
+    {
+      "Name": "Andrew Turner",
+      "Phone": "3334445555",
+      "Section": "Headphones",
+      "Salary": 75000,
+      "EID": "EMP015",
+      "Gender": "male",
+      "id": 15
+    },
+    {
+      "Name": "Sofia Phillips",
+      "Phone": "5678889999",
+      "Section": "Hometheaters",
+      "Salary": 51000,
+      "EID": "EMP016",
+      "Gender": "",
+      "id": 16
+    },
+    {
+      "Name": "Joseph Allen",
+      "Phone": "7776665555",
+      "Section": "Mobile",
+      "Salary": 68000,
+      "EID": "EMP017",
+      "Gender": "female",
+      "id": 17
+    },
+    {
+      "Name": "Grace Young",
+      "Phone": "2223334444",
+      "Section": "Laptop",
+      "Salary": 60000,
+      "EID": "EMP018",
+      "Gender": "",
+      "id": 18
+    },
+    {
+      "Name": "Christopher Hall",
+      "Phone": "3334445555",
+      "Section": "Headphones",
+      "Salary": 77000,
+      "EID": "EMP019",
+      "Gender": "female",
+      "id": 19
+    },
+    {
+      "Name": "Chloe Green",
+      "Phone": "5678889999",
+      "Section": "Hometheaters",
+      "Salary": 52000,
+      "EID": "EMP020",
+      "Gender": "female",
+      "id": 20
+    },
+    {
+      "Name": "elamaran",
+      "Phone": 8056946241,
+      "Section": "Hometheaters",
+      "Salary": 3000,
+      "EID": "EMP021",
+      "Gender": "male",
+      "id": 21
+    },
+    {
+      "Name": "Nithya",
+      "Phone": 1234567890,
+      "Section": "Laptop",
+      "Salary": 12000,
+      "EID": "EMP022",
+      "Gender": "female",
+      "id": 22
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "Name": "Poco M4 Pro",
+      "PID": "PHN001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/phone%2FpocoM4Pro.jpg?alt=media&token=f3ebf13c-c94b-485f-b551-e0ca7a7064f4",
+      "Price": "16000",
+      "OriginalPrice": "20000",
+      "Offer": 21,
+      "Stock": 0,
+      "catogory": "Mobile",
+      "lastChanges": "EMP005",
+      "review": [
+        {
+          "user": "John Doe",
+          "message": "Great phone, highly recommended!"
+        },
+        {
+          "user": "Jane Smith",
+          "message": "Good value for money."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "Name": "SONY 5.1",
+      "PID": "HMT001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/Hometheater%2Fsony5.1.jpg?alt=media&token=bf76106d-cc94-4faf-b969-2f4a9c6a8ea7",
+      "Price": "20000",
+      "OriginalPrice": "26000",
+      "Offer": "15",
+      "Stock": 0,
+      "catogory": "Hometheaters",
+      "lastChanges": "EMP004",
+      "review": [
+        {
+          "user": "John Doe",
+          "message": "Impressive sound quality, highly recommended!"
+        },
+        {
+          "user": "Jane Smith",
+          "message": "Great bass and surround sound effects."
+        },
+        {
+          "user": "Michael Johnson",
+          "message": "Easy to set up and use."
+        },
+        {
+          "user": "Sarah Adams",
+          "message": "Good value for money."
+        },
+        {
+          "user": "Robert Clark",
+          "message": "The remote control is user-friendly."
+        },
+        {
+          "user": "Emily Brown",
+          "message": "The speakers look stylish and elegant."
+        },
+        {
+          "user": "Daniel Lee",
+          "message": "Excellent audio output for movies and music."
+        },
+        {
+          "user": "Laura Williams",
+          "message": "The wireless connectivity is convenient."
+        },
+        {
+          "user": "Kevin Martinez",
+          "message": "Packed with features, worth every penny."
+        },
+        {
+          "user": "Jennifer Davis",
+          "message": "I expected better build quality for the price."
+        },
+        {
+          "user": "William Robinson",
+          "message": "The subwoofer delivers powerful bass."
+        },
+        {
+          "user": "Sophia Garcia",
+          "message": "Not suitable for large rooms, best for small spaces."
+        },
+        {
+          "user": "Ethan Moore",
+          "message": "The sound calibration feature is handy."
+        },
+        {
+          "user": "Ava Wilson",
+          "message": "Bluetooth connectivity works flawlessly."
+        },
+        {
+          "user": "James Taylor",
+          "message": "The remote control has limited range."
+        },
+        {
+          "user": "Olivia Martin",
+          "message": "The price is a bit steep for the overall quality."
+        },
+        {
+          "user": "Benjamin White",
+          "message": "Surround sound is not as immersive as expected."
+        },
+        {
+          "user": "Mia Lopez",
+          "message": "The overall sound balance is excellent."
+        },
+        {
+          "user": "Noah Hill",
+          "message": "The build and design are top-notch."
+        },
+        {
+          "user": "Elizabeth Allen",
+          "message": "The setup instructions could be clearer."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "Name": "LENOVO FLIP",
+      "PID": "LAP001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/Laptop%2FlenovoFlip.jpg?alt=media&token=dbce8ebf-0a35-4005-a457-8301e0201184",
+      "Price": "120000",
+      "OriginalPrice": "136000",
+      "Offer": 30,
+      "Stock": 20,
+      "catogory": "Laptop",
+      "lastChanges": "EMP006",
+      "review": [
+        {
+          "id": 1,
+          "user": "",
+          "message": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "Name": "JBL 240",
+      "PID": "HPN001",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/Headphone%2Fjbl240.jpg?alt=media&token=8f3045a2-610b-480b-8606-7503e3a877a4",
+      "Price": "750",
+      "OriginalPrice": 890,
+      "Offer": 33,
+      "Stock": 20,
+      "catogory": "Headphones",
+      "lastChanges": "EMP007",
+      "review": [
+        {
+          "id": 1,
+          "user": "",
+          "message": ""
+        },
+        {
+          "user": "vasanth",
+          "message": "hi"
+        },
+        {
+          "user": "vasanth",
+          "message": "Good Product"
+        },
+        {
+          "user": "vasanth",
+          "message": "erty"
+        },
+        {
+          "user": "vasanth",
+          "message": "hdgsfs"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "Name": "REALME X50",
+      "PID": "PHN002",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/phone%2FrealmeX50.jpg?alt=media&token=b71d0a48-037c-45b7-b752-c7d7e5d3ccae",
+      "Price": 41000,
+      "OriginalPrice": 47000,
+      "Offer": 12,
+      "Stock": 120,
+      "catogory": "Mobile",
+      "lastChanges": "EMP005",
+      "review": {
+        "id": "",
+        "user": "",
+        "message": ""
       }
-    ]
-  }
-  
+    },
+    {
+      "id": 8,
+      "Name": "Boult airBuds",
+      "PID": "HPN002",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/Headphone%2FboultAirbuts.jpg?alt=media&token=de3c82b0-e349-4afa-a100-1028ff4a1f41",
+      "Price": 200,
+      "OriginalPrice": 350,
+      "Offer": 22,
+      "Stock": 107,
+      "catogory": "Headphones",
+      "lastChanges": "EMP007",
+      "review": {
+        "id": "",
+        "user": "",
+        "message": ""
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "PID": "HMT001",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "3/144 A,Govt school street,Thirumangalam-625706",
+      "productName": "SONY 5.1",
+      "productPrice": "20000",
+      "quantity": 2,
+      "grandTotal": 40000
+    },
+    {
+      "id": 2,
+      "PID": "HPN002",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "wertyu,QWERTYU,WERGHJ-123456",
+      "productName": "Boult airBuds",
+      "productPrice": 200,
+      "quantity": 1,
+      "grandTotal": 200
+    },
+    {
+      "id": 3,
+      "PID": "HPN002",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "12345678,qwertyui,qwerty-345678",
+      "productName": "Boult airBuds",
+      "productPrice": 200,
+      "quantity": 3,
+      "grandTotal": 600
+    },
+    {
+      "id": 4,
+      "PID": "PHN002",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "qwert234567,wertyu,qwerty-345678",
+      "productName": "REALME X50",
+      "productPrice": 41000,
+      "quantity": 2,
+      "grandTotal": 82000
+    },
+    {
+      "id": 5,
+      "PID": "HMT001",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "1233,wertyu,qwertyu-111111",
+      "productName": "SONY 5.1",
+      "productPrice": "20000",
+      "quantity": 3,
+      "grandTotal": 60000
+    },
+    {
+      "id": 6,
+      "PID": "LAP001",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "123,qwert,qwert-123456",
+      "productName": "LENOVO FLIP",
+      "productPrice": "120000",
+      "quantity": 3,
+      "grandTotal": 360000
+    },
+    {
+      "id": 7,
+      "PID": "HPN001",
+      "userName": "vasanth",
+      "phoneNo": "9360733323",
+      "Address": "6543,rtyuio,lkjytr-123456",
+      "productName": "JBL 240",
+      "productPrice": "750",
+      "quantity": 3,
+      "grandTotal": 2250
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "user": "vasanth",
+      "message": "Quick Kart is looking fantastic! I'm loving the variety of items available."
+    },
+    {
+      "id": 2,
+      "user": "varatharaj",
+      "message": "Quick Kart is looking fantastic! I'm loving the variety of items available."
+    },
+    {
+      "id": 3,
+      "user": "Harini",
+      "message": "Quick Kart is amazing! I can't get enough of the fantastic products they have."
+    },
+    {
+      "id": 4,
+      "user": "vishnu",
+      "message": "Quick Kart's website is top-notch! I'm delighted with their extensive range of items."
+    }
+  ]
+}
