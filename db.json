@@ -514,25 +514,6 @@
     }
   ],
   "feedback": [
-    {
-      "id": 1,
-      "user": "vasanth",
-      "message": "Quick Kart is looking fantastic! I'm loving the variety of items available."
-    },
-    {
-      "id": 2,
-      "user": "varatharaj",
-      "message": "Quick Kart is looking fantastic! I'm loving the variety of items available."
-    },
-    {
-      "id": 3,
-      "user": "Harini",
-      "message": "Quick Kart is amazing! I can't get enough of the fantastic products they have."
-    },
-    {
-      "id": 4,
-      "user": "vishnu",
-      "message": "Quick Kart's website is top-notch! I'm delighted with their extensive range of items."
-    }
+   
   ]
 }
