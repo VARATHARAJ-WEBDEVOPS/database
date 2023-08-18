@@ -27,7 +27,14 @@
       "number": 1234567890,
       "password": "sivasiva",
       "id": 4
-    }
+    },
+      {
+    "name": "Priya",
+    "email": "priya@gmail.com",
+    "number": 7373370386,
+    "password": "sivasiva",
+    "id": 5
+  }
   ],
   "banners": [
     {
@@ -432,86 +439,121 @@
         "user": "",
         "message": ""
       }
+    },
+    {
+  "id": 9,
+  "Name": "Samsung Galaxy S21",
+  "PID": "PHN002",
+  "imgUrl": "https://example.com/samsung-s21.jpg",
+  "Price": "70000",
+  "OriginalPrice": "75000",
+  "Offer": 7,
+  "Stock": 10,
+  "catogory": "Mobile",
+  "lastChanges": "EMP006",
+  "review": [
+    {
+      "user": "Alex Johnson",
+      "message": "Impressive performance and camera quality!"
+    },
+    {
+      "user": "Ella Martinez",
+      "message": "Sleek design and vibrant display."
     }
+  ]
+},
+    {
+  "id": 10,
+  "Name": "iPhone 13 Pro",
+  "PID": "PHN003",
+  "imgUrl": "https://example.com/iphone-13-pro.jpg",
+  "Price": "110000",
+  "OriginalPrice": "120000",
+  "Offer": 8,
+  "Stock": 5,
+  "catogory": "Mobile",
+  "lastChanges": "EMP007",
+  "review": [
+    {
+      "user": "Michael Brown",
+      "message": "Amazing camera capabilities and fast performance."
+    },
+    {
+      "user": "Sophia Johnson",
+      "message": "Premium build quality and elegant design."
+    }
+  ]
+},
+    {
+  "id": 11,
+  "Name": "OnePlus 9",
+  "PID": "PHN004",
+  "imgUrl": "https://example.com/oneplus-9.jpg",
+  "Price": "50000",
+  "OriginalPrice": "55000",
+  "Offer": 9,
+  "Stock": 15,
+  "catogory": "Mobile",
+  "lastChanges": "EMP008",
+  "review": [
+    {
+      "user": "David Williams",
+      "message": "Smooth performance and clean software."
+    },
+    {
+      "user": "Olivia Miller",
+      "message": "Value for money and great battery life."
+    }
+  ]
+},
+    {
+  "id": 5,
+  "Name": "Xiaomi Redmi Note 10",
+  "PID": "PHN005",
+  "imgUrl": "https://example.com/redmi-note-10.jpg",
+  "Price": "15000",
+  "OriginalPrice": "17000",
+  "Offer": 12,
+  "Stock": 20,
+  "catogory": "Mobile",
+  "lastChanges": "EMP009",
+  "review": [
+    {
+      "user": "Emily Davis",
+      "message": "Great budget phone with good features."
+    },
+    {
+      "user": "Daniel Taylor",
+      "message": "Impressive display quality for the price."
+    }
+  ]
+}
   ],
   "orders": [
-    {
-      "id": 1,
-      "PID": "HMT001",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "3/144 A,Govt school street,Thirumangalam-625706",
-      "productName": "SONY 5.1",
-      "productPrice": "20000",
-      "quantity": 2,
-      "grandTotal": 40000
-    },
-    {
-      "id": 2,
-      "PID": "HPN002",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "wertyu,QWERTYU,WERGHJ-123456",
-      "productName": "Boult airBuds",
-      "productPrice": 200,
-      "quantity": 1,
-      "grandTotal": 200
-    },
-    {
-      "id": 3,
-      "PID": "HPN002",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "12345678,qwertyui,qwerty-345678",
-      "productName": "Boult airBuds",
-      "productPrice": 200,
-      "quantity": 3,
-      "grandTotal": 600
-    },
-    {
-      "id": 4,
-      "PID": "PHN002",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "qwert234567,wertyu,qwerty-345678",
-      "productName": "REALME X50",
-      "productPrice": 41000,
-      "quantity": 2,
-      "grandTotal": 82000
-    },
-    {
-      "id": 5,
-      "PID": "HMT001",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "1233,wertyu,qwertyu-111111",
-      "productName": "SONY 5.1",
-      "productPrice": "20000",
-      "quantity": 3,
-      "grandTotal": 60000
-    },
-    {
-      "id": 6,
-      "PID": "LAP001",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "123,qwert,qwert-123456",
-      "productName": "LENOVO FLIP",
-      "productPrice": "120000",
-      "quantity": 3,
-      "grandTotal": 360000
-    },
-    {
-      "id": 7,
-      "PID": "HPN001",
-      "userName": "vasanth",
-      "phoneNo": "9360733323",
-      "Address": "6543,rtyuio,lkjytr-123456",
-      "productName": "JBL 240",
-      "productPrice": "750",
-      "quantity": 3,
-      "grandTotal": 2250
-    }
+  {
+    "id": 1,
+    "PID": "PHN002",
+    "userName": "vasanth",
+    "phoneNo": "9360733323",
+    "Address": "3/144 A,govt School street,thirumangalm-625706",
+    "productName": "REALME X50",
+    "productPrice": 41000,
+    "quantity": 1,
+    "grandTotal": 41000,
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/phone%2FrealmeX50.jpg?alt=media&token=b71d0a48-037c-45b7-b752-c7d7e5d3ccae"
+  },
+  {
+    "id": 2,
+    "PID": "HPN001",
+    "userName": "Priya",
+    "phoneNo": 7373370386,
+    "Address": "9 ,vadapalanji,madurai-625706",
+    "productName": "JBL 240",
+    "productPrice": "750",
+    "quantity": 1,
+    "grandTotal": "750",
+    "imgUrl": "https://firebasestorage.googleapis.com/v0/b/fir-auth-39c4c.appspot.com/o/Headphone%2Fjbl240.jpg?alt=media&token=8f3045a2-610b-480b-8606-7503e3a877a4"
+  }
   ],
   "feedback": [
    {
