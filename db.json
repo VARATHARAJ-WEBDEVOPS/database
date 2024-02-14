@@ -32,20 +32,7 @@
     }
   ],
   "user": [
-    {
-      "id": 1,
-      "name": "vasanth",
-      "email": "varathan2512002@gmail.com",
-      "password": "sivasiva",
-      "number": "9360733323"
-    },
-    {
-      "name": "Varatharaj",
-      "email": "tgreenscreenlyrics@gmail.com",
-      "number": 9360733323,
-      "password": "sivasiva",
-      "id": 2
-    },
+  
     {
       "name": "hari",
       "email": "h@gmai.com",
